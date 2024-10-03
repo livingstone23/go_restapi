@@ -1,0 +1,10 @@
+POST http://localhost:8089/events
+Content-Type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3Q0QGdtYWlsLmNvbSIsImV4cCI6MTcyODAzNTY3NSwidXNlcklkIjozfQ.BFyQxfgMMB-wXVv7-VtPHJDpnalTuR4rQIn09sDIbVI
+
+{
+  "name": "Test event 7",
+  "description": "Event 7 description",
+  "location": "Event 7 location",
+  "dateTime": "2019-12-31T23:59:59.999Z"
+}
